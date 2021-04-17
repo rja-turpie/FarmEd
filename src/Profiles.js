@@ -13,6 +13,7 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import Link from '@material-ui/core/Link';
+import farmer from './farmerview.jpg'
 
 function Copyright() {
   return (
@@ -32,7 +33,7 @@ const useStyles = makeStyles((theme) => ({
     marginRight: theme.spacing(2),
   },
   heroContent: {
-    backgroundColor: theme.palette.background.paper,
+    backgroundColor: 'rgb(177, 206, 151)',
     padding: theme.spacing(8, 0, 6),
   },
   heroButtons: {
@@ -54,7 +55,7 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
   },
   footer: {
-    backgroundColor: theme.palette.background.paper,
+    backgroundColor: 'rgb(177, 206, 151)',
     padding: theme.spacing(6),
   },
 }));
@@ -69,13 +70,13 @@ export default function Profiles() {
       </AppBar>
       <main>
         {/* Hero unit */}
-        <div className={classes.heroContent}>
+        <div className={classes.heroContent} >
           <Container maxWidth="sm">
-            <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
+            <Typography component="h1" variant="h2" align="center"  gutterBottom style={{color: 'rgb(245, 255, 239)'}}>
               Farmer Profiles
             </Typography>
             <Typography variant="h5" align="center" color="textSecondary" paragraph>
-              Meet your local farmer!
+              Meet your local farmers!
               <br></br>
               Click on a profile to see farm products and more
             </Typography>
@@ -99,8 +100,8 @@ export default function Profiles() {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </Typography>
                   </CardContent>
-                  <CardActions>
-                    <Button size="small" color="primary">
+                  <CardActions style={{justifyContent: 'center'}}>
+                    <Button size="small" style={{ color:  'rgb(73, 110, 49)' }}>
                       View
                     </Button>
                   </CardActions>
@@ -122,8 +123,8 @@ export default function Profiles() {
                         Vitae auctor eu augue ut lectus arcu bibendum at varius. In hac habitasse platea dictumst vestibulum rhoncus. Luctus venenatis lectus magna fringilla urna porttitor. Enim sed faucibus turpis in. Ut consequat semper viverra nam libero. Id eu nisl nunc mi ipsum. 
                     </Typography>
                   </CardContent>
-                  <CardActions>
-                    <Button size="small" color="primary" href="/West-Lothian-Farm">
+                  <CardActions style={{justifyContent: 'center'}}>
+                    <Button size="small" style={{ color:  'rgb(73, 110, 49)' }} href="/West-Lothian-Farm">
                       View
                     </Button>
                   </CardActions> 
@@ -145,8 +146,8 @@ export default function Profiles() {
                     Massa enim nec dui nunc mattis enim ut tellus elementum. Fringilla ut morbi tincidunt augue interdum. A diam maecenas sed enim ut sem viverra. Nisi scelerisque eu ultrices vitae auctor eu augue ut lectus. Semper viverra nam libero justo laoreet sit amet. Lobortis scelerisque fermentum dui faucibus. Netus et malesuada fames ac turpis. Lobortis scelerisque fermentum dui faucibus in ornare. 
                     </Typography>
                   </CardContent>
-                  <CardActions>
-                    <Button size="small" color="primary">
+                  <CardActions style={{justifyContent: 'center'}}>
+                    <Button size="small" style={{ color:  'rgb(73, 110, 49)' }}>
                       View
                     </Button>
                   </CardActions>
@@ -167,8 +168,8 @@ export default function Profiles() {
                     <Typography>
                          Integer quis auctor elit sed vulputate mi sit amet. Iaculis eu non diam phasellus vestibulum. Risus sed vulputate odio ut enim blandit volutpat.                                        </Typography>
                   </CardContent>
-                  <CardActions>
-                    <Button size="small" color="primary">
+                  <CardActions style={{justifyContent: 'center'}}>
+                    <Button size="small" style={{ color:  'rgb(73, 110, 49)' }}>
                       View
                     </Button>
                   </CardActions>
@@ -190,8 +191,8 @@ export default function Profiles() {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </Typography>
                   </CardContent>
-                  <CardActions>
-                    <Button size="small" color="primary">
+                  <CardActions style={{justifyContent: 'center'}}>
+                    <Button size="small" style={{ color:  'rgb(73, 110, 49)' }}>
                       View
                     </Button>
                     {/* <Button size="small" color="primary">
