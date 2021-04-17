@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import  Album from './Album';
+import  Album from './Lan';
 import reportWebVitals from './reportWebVitals';
 
 
