@@ -59,8 +59,6 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-// const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-
 export default function Album() {
   const classes = useStyles();
 
@@ -68,12 +66,6 @@ export default function Album() {
     <React.Fragment>
       <CssBaseline />
       <AppBar position="relative">
-        {/* <Toolbar>
-          <CameraIcon className={classes.icon} />
-          <Typography variant="h6" color="inherit" noWrap>
-            Farmer Profiles
-          </Typography>
-        </Toolbar> */}
       </AppBar>
       <main>
         {/* Hero unit */}
@@ -87,20 +79,6 @@ export default function Album() {
               <br></br>
               Click on a profile to see farm products and more
             </Typography>
-            {/* <div className={classes.heroButtons}>
-              <Grid container spacing={2} justify="center">
-                <Grid item>
-                  <Button variant="contained" color="primary">
-                    Main call to action
-                  </Button>
-                </Grid>
-                <Grid item>
-                  <Button variant="outlined" color="primary">
-                    Secondary action
-                  </Button>
-                </Grid>
-              </Grid>
-            </div> */}
           </Container>
         </div>
         <Container className={classes.cardGrid} maxWidth="md">
@@ -110,7 +88,7 @@ export default function Album() {
                 <Card className={classes.card}>
                   <CardMedia
                     className={classes.cardMedia}
-                    image="https://source.unsplash.com/random"
+                    image="https://www.farminguk.com/images/News/49042_1.jpg"
                     title="Image title"
                   />
                   <CardContent className={classes.cardContent}>
@@ -125,9 +103,6 @@ export default function Album() {
                     <Button size="small" color="primary">
                       View
                     </Button>
-                    {/* <Button size="small" color="primary">
-                      Edit
-                    </Button> */}
                   </CardActions>
                 </Card>
               </Grid>
@@ -136,7 +111,7 @@ export default function Album() {
                 <Card className={classes.card}>
                   <CardMedia
                     className={classes.cardMedia}
-                    image="https://source.unsplash.com/random"
+                    image="https://cdn.nikoncafe.com/attachments/p929027317-5-jpg.1555699/"
                     title="Image title"
                   />
                   <CardContent className={classes.cardContent}>
@@ -151,9 +126,6 @@ export default function Album() {
                     <Button size="small" color="primary">
                       View
                     </Button>
-                    {/* <Button size="small" color="primary">
-                      Edit
-                    </Button> */}
                   </CardActions> 
                 </Card>
               </Grid>
@@ -162,7 +134,7 @@ export default function Album() {
                 <Card className={classes.card}>
                   <CardMedia
                     className={classes.cardMedia}
-                    image="https://source.unsplash.com/random"
+                    image="https://www.yen.adas.co.uk/sites/default/files/inline-images/David%20Fuller-Shapcott2_0.jpg"
                     title="Image title"
                   />
                   <CardContent className={classes.cardContent}>
@@ -177,9 +149,6 @@ export default function Album() {
                     <Button size="small" color="primary">
                       View
                     </Button>
-                    {/* <Button size="small" color="primary">
-                      Edit
-                    </Button> */}
                   </CardActions>
                 </Card>
               </Grid>
@@ -188,7 +157,7 @@ export default function Album() {
                 <Card className={classes.card}>
                   <CardMedia
                     className={classes.cardMedia}
-                    image="https://source.unsplash.com/random"
+                    image="https://bmcontent.affino.com/AcuCustom/Sitename/DAM/130/030217_YFF_Andrew_mcgregor_0383_Main.jpg"
                     title="Image title"
                   />
                   <CardContent className={classes.cardContent}>
@@ -202,9 +171,6 @@ export default function Album() {
                     <Button size="small" color="primary">
                       View
                     </Button>
-                    {/* <Button size="small" color="primary">
-                      Edit
-                    </Button> */}
                   </CardActions>
                 </Card>
               </Grid>
@@ -213,7 +179,7 @@ export default function Album() {
                 <Card className={classes.card}>
                   <CardMedia
                     className={classes.cardMedia}
-                    image="https://source.unsplash.com/random"
+                    image="https://www.farminguk.com/images/News/52067_1.jpg"
                     title="Image title"
                   />
                   <CardContent className={classes.cardContent}>
