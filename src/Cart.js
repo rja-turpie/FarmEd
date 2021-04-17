@@ -84,8 +84,8 @@ export default function Cart() {
                   </Button>
                 </Grid>
                 <Grid item>
-                  <Button variant="outlined" color="primary">
-                    Save as favourites
+                  <Button variant="outlined" color="primary" href="/Checkout">
+                    Checkout
                   </Button>
                 </Grid>
               </Grid>
