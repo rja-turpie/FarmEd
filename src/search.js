@@ -4,20 +4,23 @@
 
 // export default Search;
 
-
+import './search.css';
+import Button from '@material-ui/core/Button';
+import Input from '@material-ui/core/Input'
+// import { sizing } from '@material-ui/system';
 
 const SearchBar = () => (
-    <form action="/" method="get">
+    <form action="/search" method="get">
         <label htmlFor="header-search">
             <span className="visually-hidden">Search Farms Near You</span>
         </label>
-        <input
+        <Input
             type="text"
             id="header-search"
             placeholder="Search Farms Near You"
-            name="s" 
+            name="term"
         />
-        <button type="submit">Search</button>
+        <Button href="/search" >Search </Button>
     </form>
 );
 

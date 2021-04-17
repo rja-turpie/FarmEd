@@ -10,8 +10,8 @@ function Landingpg() {
     
     <body>
       <div className="App">
+        
         <header className="App-header">
-          
           Welcome to local farm fresh foods at your fingertips 
         <p>
           We're dedicated to connecting you to your local farm for a more sustainable shopping experience

@@ -13,6 +13,7 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import Link from '@material-ui/core/Link';
+import Search from './search';
 
 
 function Copyright() {
@@ -69,6 +70,7 @@ export default function Profiles() {
       <AppBar position="relative">
       </AppBar>
       <main>
+        <Search />
         {/* Hero unit */}
         <div className={classes.heroContent} >
           <Container maxWidth="sm">
