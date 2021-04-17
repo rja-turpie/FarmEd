@@ -44,8 +44,8 @@ export default function Header(props) {
         </Typography>
         <IconButton>
         </IconButton>
-        <Button variant="outlined" size="small">
-          Sign up
+        <Button variant="outlined" size="small" href='\login'>
+          Sign In
         </Button>
       </Toolbar>
       

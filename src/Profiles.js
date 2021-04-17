@@ -59,7 +59,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function Album() {
+export default function Profiles() {
   const classes = useStyles();
 
   return (
@@ -123,7 +123,7 @@ export default function Album() {
                     </Typography>
                   </CardContent>
                   <CardActions>
-                    <Button size="small" color="primary">
+                    <Button size="small" color="primary" href="/West-Lothian-Farm">
                       View
                     </Button>
                   </CardActions> 

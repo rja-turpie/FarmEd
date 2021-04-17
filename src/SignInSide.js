@@ -74,6 +74,7 @@ export default function SignInSide() {
               variant="contained"
               color="primary"
               className="SignInSide-submit"
+              href="/farms"
             >
               Sign In
             </Button>
@@ -84,7 +85,7 @@ export default function SignInSide() {
                 </Link>
               </Grid>
               <Grid item>
-                <Link href="#" variant="body2">
+                <Link href="/sign-up" variant="body2">
                   {"Don't have an account? Sign Up"}
                 </Link>
               </Grid>
