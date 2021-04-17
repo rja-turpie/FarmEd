@@ -1,0 +1,33 @@
+.SignUpSide {
+    height: 100vh;
+}
+
+.SignUpSide-image {
+    background-image: url(https://source.unsplash.com/random);
+    background-repeat: no-repeat;
+    background-color: grey;
+    background-size: cover;
+    background-position: center;
+}
+
+.SignUpSide-paper {
+    margin: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SignUpSide-avatar {
+    margin: 8px;
+    background-color: fuchsia;
+}
+
+.SignUpSide-form {
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.SignUpSide-submit {
+    margin: 8px;
+}
