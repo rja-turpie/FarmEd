@@ -141,7 +141,7 @@ export default function SignUpSide() {
                 </Link>
               </Grid>
               <Grid item>
-                <Link href="/SignInSide" variant="body2">
+                <Link href="/login" variant="body2">
                   {"Already have an account? Sign In"}
                 </Link>
               </Grid>
