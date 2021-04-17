@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { Component } from 'react';
+import './Cart.css';
 import AppBar from '@material-ui/core/AppBar';
 import Button from '@material-ui/core/Button';
 import CameraIcon from '@material-ui/icons/PhotoCamera';
@@ -26,6 +27,24 @@ function Copyright() {
     </Typography>
   );
 }
+
+
+
+function increment() {
+  var value = parseFloat(document.getElementById('number').value, 10);
+  value = isNaN(value) ? 0 : value;
+  value = value + 0.5;
+  document.getElementById('number').value = value;
+}
+
+function decrement() {
+  var value = parseFloat(document.getElementById('number').value, 10);
+  value = isNaN(value) ? 0 : value;
+  value = value - 0.5 < 0 ? 0 : value-=0.5;
+  document.getElementById('number').value = value;
+}
+
+
 
 const useStyles = makeStyles((theme) => ({
   icon: {
@@ -103,9 +122,10 @@ export default function Cart() {
                     title="Image title"
                   />
                   <CardContent className={classes.cardContent}>
-                    <Typography gutterBottom variant="h5" component="h2">
+                    <Typography gutterBottom variant="h5" component="h2" align="center">
                       Tomatoes
                     </Typography>
+                    <div align="center">
                     <Typography>
                         Description
                         <br></br>
@@ -113,6 +133,20 @@ export default function Cart() {
                         <br></br>
                         Quanity
                     </Typography>
+                    
+                   
+                    <button type="button" class="btn" onClick={decrement}>
+                      -
+                    </button>
+                    <input type="text" id="number" value="0" class="input-txt" />
+                    <button type="button" class="btn" onClick={increment}>
+                      +
+                    </button>
+                    </div>
+
+
+
+
                   </CardContent>
                 </Card>
               </Grid>
@@ -125,9 +159,10 @@ export default function Cart() {
                     title="Image title"
                   />
                   <CardContent className={classes.cardContent}>
-                    <Typography gutterBottom variant="h5" component="h2">
+                    <Typography gutterBottom variant="h5" component="h2" align="center">
                       Carrots
                     </Typography>
+                    <div align="center">
                     <Typography>
                         Description
                         <br></br>
@@ -135,6 +170,15 @@ export default function Cart() {
                         <br></br>
                         Quanity                    
                     </Typography>
+
+                    <button type="button" class="btn" onClick={decrement}>
+                      -
+                    </button>
+                    <input type="text" id="number" value="0" class="input-txt"/>
+                    <button type="button" class="btn" onClick={increment}>
+                      +
+                    </button>
+                    </div>
                   </CardContent>
                 </Card>
               </Grid>
@@ -147,9 +191,10 @@ export default function Cart() {
                     title="Image title"
                   />
                   <CardContent className={classes.cardContent}>
-                    <Typography gutterBottom variant="h5" component="h2">
+                    <Typography gutterBottom variant="h5" component="h2" align="center">
                       Oats
                     </Typography>
+                    <div align="center">
                     <Typography>
                         Description
                         <br></br>
@@ -157,6 +202,15 @@ export default function Cart() {
                         <br></br>
                         Quanity
                     </Typography>
+
+                    <button type="button" class="btn" onClick={decrement}>
+                      -
+                    </button>
+                    <input type="text" id="number" value="0" class="input-txt"/>
+                    <button type="button" class="btn" onClick={increment}>
+                      +
+                    </button>
+                    </div>
                   </CardContent>
                 </Card>
               </Grid>
@@ -165,13 +219,14 @@ export default function Cart() {
                 <Card className={classes.card}>
                   <CardMedia
                     className={classes.cardMedia}
-                    image="https://source.unsplash.com/random"
+                    image="http://www.planetnatural.com/wp-content/uploads/2014/04/garden-potatoes.jpg"
                     title="Image title"
                   />
                   <CardContent className={classes.cardContent}>
-                    <Typography gutterBottom variant="h5" component="h2">
+                    <Typography gutterBottom variant="h5" component="h2" align="center">
                       Potatoes
                     </Typography>
+                    <div align="center">
                     <Typography>
                         Description
                         <br></br>
@@ -179,6 +234,15 @@ export default function Cart() {
                         <br></br>
                         Quanity                    
                     </Typography>
+
+                    <button type="button" class="btn" onClick={decrement}>
+                      -
+                    </button>
+                    <input type="text" id="number" value="0" class="input-txt"/>
+                    <button type="button" class="btn" onClick={increment}>
+                      +
+                    </button>
+                    </div>
                   </CardContent>
                 </Card>
               </Grid>
@@ -191,9 +255,10 @@ export default function Cart() {
                     title="Image title"
                   />
                   <CardContent className={classes.cardContent}>
-                    <Typography gutterBottom variant="h5" component="h2">
+                    <Typography gutterBottom variant="h5" component="h2" align="center">
                       Eggs
                     </Typography>
+                    <div align="center">
                     <Typography>
                         Description
                         <br></br>
@@ -201,6 +266,15 @@ export default function Cart() {
                         <br></br>
                         Quanity                    
                     </Typography>
+
+                    <button type="button" class="btn" onClick={decrement}>
+                      -
+                    </button>
+                    <input type="text" id="number" value="0" class="input-txt"/>
+                    <button type="button" class="btn" onClick={increment}>
+                      +
+                    </button>
+                    </div>
                   </CardContent>
                 </Card>
 
@@ -215,9 +289,10 @@ export default function Cart() {
                     title="Image title"
                   />
                   <CardContent className={classes.cardContent}>
-                    <Typography gutterBottom variant="h5" component="h2">
+                    <Typography gutterBottom variant="h5" component="h2" align="center">
                       Chicken
                     </Typography>
+                    <div align="center">
                     <Typography>
                         Description
                         <br></br>
@@ -225,6 +300,15 @@ export default function Cart() {
                         <br></br>
                         Quanity                    
                     </Typography>
+
+                    <button type="button" class="btn" onClick={decrement}>
+                      -
+                    </button>
+                    <input type="text" id="number" value="0" class="input-txt"/>
+                    <button type="button" class="btn" onClick={increment}>
+                      +
+                    </button>
+                    </div>
                   </CardContent>
                 </Card>
 
