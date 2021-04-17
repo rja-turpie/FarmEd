@@ -1,0 +1,16 @@
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(90%);
+    height: 10px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 10px;
+}
+
+input {
+    min-height:50px;
+    font-size:large;
+    
+}
+

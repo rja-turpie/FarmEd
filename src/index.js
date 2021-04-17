@@ -11,8 +11,6 @@ import SignUpSide from './SignUpSide'
 import PotatoeSearch from './PotatoeSearch'
 import Checkout from './Checkout'
 
-
-
 const Routes = () => (
   <BrowserRouter>
       <App>
