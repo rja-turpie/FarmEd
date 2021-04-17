@@ -31,18 +31,88 @@ function Copyright() {
 
 
 
-function increment() {
+function increment0() {
   var value = parseFloat(document.getElementById('number').value, 10);
   value = isNaN(value) ? 0 : value;
   value = value + 0.5;
   document.getElementById('number').value = value;
 }
 
-function decrement() {
+function decrement0() {
   var value = parseFloat(document.getElementById('number').value, 10);
   value = isNaN(value) ? 0 : value;
   value = value - 0.5 < 0 ? 0 : value-=0.5;
   document.getElementById('number').value = value;
+}
+
+function increment1() {
+  var value = parseFloat(document.getElementById('number1').value, 10);
+  value = isNaN(value) ? 0 : value;
+  value = value + 0.5;
+  document.getElementById('number1').value = value;
+}
+
+function decrement1() {
+  var value = parseFloat(document.getElementById('number1').value, 10);
+  value = isNaN(value) ? 0 : value;
+  value = value - 0.5 < 0 ? 0 : value-=0.5;
+  document.getElementById('number1').value = value;
+}
+
+function increment2() {
+  var value = parseFloat(document.getElementById('number2').value, 10);
+  value = isNaN(value) ? 0 : value;
+  value = value + 0.5;
+  document.getElementById('number2').value = value;
+}
+
+function decrement2() {
+  var value = parseFloat(document.getElementById('number2').value, 10);
+  value = isNaN(value) ? 0 : value;
+  value = value - 0.5 < 0 ? 0 : value-=0.5;
+  document.getElementById('number2').value = value;
+}
+
+function increment3() {
+  var value = parseFloat(document.getElementById('number3').value, 10);
+  value = isNaN(value) ? 0 : value;
+  value = value + 0.5;
+  document.getElementById('number3').value = value;
+}
+
+function decrement3() {
+  var value = parseFloat(document.getElementById('number3').value, 10);
+  value = isNaN(value) ? 0 : value;
+  value = value - 0.5 < 0 ? 0 : value-=0.5;
+  document.getElementById('number3').value = value;
+}
+
+function increment4() {
+  var value = parseFloat(document.getElementById('number4').value, 10);
+  value = isNaN(value) ? 0 : value;
+  value = value + 0.5;
+  document.getElementById('number4').value = value;
+}
+
+function decrement4() {
+  var value = parseFloat(document.getElementById('number4').value, 10);
+  value = isNaN(value) ? 0 : value;
+  value = value - 0.5 < 0 ? 0 : value-=0.5;
+  document.getElementById('number4').value = value;
+}
+
+function increment5() {
+  var value = parseFloat(document.getElementById('number5').value, 10);
+  value = isNaN(value) ? 0 : value;
+  value = value + 0.5;
+  document.getElementById('number5').value = value;
+}
+
+function decrement5() {
+  var value = parseFloat(document.getElementById('number5').value, 10);
+  value = isNaN(value) ? 0 : value;
+  value = value - 0.5 < 0 ? 0 : value-=0.5;
+  document.getElementById('number5').value = value;
 }
 
 
@@ -137,11 +207,11 @@ export default function Cart() {
                     </Typography>
                     
                    
-                    <button type="button" class="btn" onClick={decrement}>
+                    <button type="button" class="btn" onClick={decrement0}>
                       -
                     </button>
                     <input type="text" id="number" value="0" class="input-txt" />
-                    <button type="button" class="btn" onClick={increment}>
+                    <button type="button" class="btn" onClick={increment0}>
                       +
                     </button>
                     </div>
@@ -173,11 +243,11 @@ export default function Cart() {
                         Quanity                    
                     </Typography>
 
-                    <button type="button" class="btn" onClick={decrement}>
+                    <button type="button" class="btn" onClick={decrement1}>
                       -
                     </button>
-                    <input type="text" id="number" value="0" class="input-txt"/>
-                    <button type="button" class="btn" onClick={increment}>
+                    <input type="text" id="number1" value="0" class="input-txt"/>
+                    <button type="button" class="btn" onClick={increment1}>
                       +
                     </button>
                     </div>
@@ -205,11 +275,11 @@ export default function Cart() {
                         Quanity
                     </Typography>
 
-                    <button type="button" class="btn" onClick={decrement}>
+                    <button type="button" class="btn" onClick={decrement2}>
                       -
                     </button>
-                    <input type="text" id="number" value="0" class="input-txt"/>
-                    <button type="button" class="btn" onClick={increment}>
+                    <input type="text" id="number2" value="0" class="input-txt"/>
+                    <button type="button" class="btn" onClick={increment2}>
                       +
                     </button>
                     </div>
@@ -237,11 +307,11 @@ export default function Cart() {
                         Quanity                    
                     </Typography>
 
-                    <button type="button" class="btn" onClick={decrement}>
+                    <button type="button" class="btn" onClick={decrement3}>
                       -
                     </button>
-                    <input type="text" id="number" value="0" class="input-txt"/>
-                    <button type="button" class="btn" onClick={increment}>
+                    <input type="text" id="number3" value="0" class="input-txt"/>
+                    <button type="button" class="btn" onClick={increment3}>
                       +
                     </button>
                     </div>
@@ -269,11 +339,11 @@ export default function Cart() {
                         Quanity                    
                     </Typography>
 
-                    <button type="button" class="btn" onClick={decrement}>
+                    <button type="button" class="btn" onClick={decrement4}>
                       -
                     </button>
-                    <input type="text" id="number" value="0" class="input-txt"/>
-                    <button type="button" class="btn" onClick={increment}>
+                    <input type="text" id="number4" value="0" class="input-txt"/>
+                    <button type="button" class="btn" onClick={increment4}>
                       +
                     </button>
                     </div>
@@ -303,11 +373,11 @@ export default function Cart() {
                         Quanity                    
                     </Typography>
 
-                    <button type="button" class="btn" onClick={decrement}>
+                    <button type="button" class="btn" onClick={decrement5}>
                       -
                     </button>
-                    <input type="text" id="number" value="0" class="input-txt"/>
-                    <button type="button" class="btn" onClick={increment}>
+                    <input type="text" id="number5" value="0" class="input-txt"/>
+                    <button type="button" class="btn" onClick={increment5}>
                       +
                     </button>
                     </div>

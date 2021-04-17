@@ -31,11 +31,11 @@ export default function Header(props) {
   return (
     <React.Fragment>
       <Toolbar className={classes.toolbar}>
-        <Button size="small">Subscribe</Button>
+        <Button size="small" style={{color: 'rgb(245, 255, 239)'}}>Subscribe</Button>
         <Typography
           component="h2"
           variant="h5"
-          color="inherit"
+          color="white"
           align="center"
           noWrap
           className={classes.toolbarTitle}
