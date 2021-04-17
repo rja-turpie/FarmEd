@@ -88,7 +88,7 @@ export default function Album() {
                 <Card className={classes.card}>
                   <CardMedia
                     className={classes.cardMedia}
-                    image="https://www.farminguk.com/images/News/49042_1.jpg"
+                    image="https://c.stocksy.com/a/JTx200/z9/705269.jpg?1552458356"
                     title="Image title"
                   />
                   <CardContent className={classes.cardContent}>
@@ -111,7 +111,7 @@ export default function Album() {
                 <Card className={classes.card}>
                   <CardMedia
                     className={classes.cardMedia}
-                    image="https://cdn.nikoncafe.com/attachments/p929027317-5-jpg.1555699/"
+                    image="http://american-outdoors.net/wp-content/uploads/2015/03/Female-Farmer.jpg"
                     title="Image title"
                   />
                   <CardContent className={classes.cardContent}>
@@ -134,7 +134,7 @@ export default function Album() {
                 <Card className={classes.card}>
                   <CardMedia
                     className={classes.cardMedia}
-                    image="https://www.yen.adas.co.uk/sites/default/files/inline-images/David%20Fuller-Shapcott2_0.jpg"
+                    image="https://cdn.modernfarmer.com/wp-content/uploads/2014/05/femalefarmer2.jpg"
                     title="Image title"
                   />
                   <CardContent className={classes.cardContent}>
@@ -157,7 +157,7 @@ export default function Album() {
                 <Card className={classes.card}>
                   <CardMedia
                     className={classes.cardMedia}
-                    image="https://bmcontent.affino.com/AcuCustom/Sitename/DAM/130/030217_YFF_Andrew_mcgregor_0383_Main.jpg"
+                    image="http://www.americasheartland.org/pressroom/images/female_farmer_in_wheat_field.jpg"
                     title="Image title"
                   />
                   <CardContent className={classes.cardContent}>
@@ -179,7 +179,7 @@ export default function Album() {
                 <Card className={classes.card}>
                   <CardMedia
                     className={classes.cardMedia}
-                    image="https://www.farminguk.com/images/News/52067_1.jpg"
+                    image="https://www.thetimes.co.uk/imageserver/image/methode%2Fsundaytimes%2Fprod%2Fweb%2Fbin%2F214fcc3e-ed7b-11e7-8539-e5d3352c849a.jpg?crop=2667%2C1500%2C0%2C0&resize=685"
                     title="Image title"
                   />
                   <CardContent className={classes.cardContent}>
