@@ -89,7 +89,7 @@ export default function Profiles() {
                 <Card className={classes.card}>
                   <CardMedia
                     className={classes.cardMedia}
-                    image="https://c.stocksy.com/a/JTx200/z9/705269.jpg?1552458356"
+                    image="https://www.thetimes.co.uk/imageserver/image/methode%2Fsundaytimes%2Fprod%2Fweb%2Fbin%2F214fcc3e-ed7b-11e7-8539-e5d3352c849a.jpg?crop=2667%2C1500%2C0%2C0&resize=685"
                     title="Image title"
                   />
                   <CardContent className={classes.cardContent}>
@@ -112,7 +112,7 @@ export default function Profiles() {
                 <Card className={classes.card}>
                   <CardMedia
                     className={classes.cardMedia}
-                    image="http://american-outdoors.net/wp-content/uploads/2015/03/Female-Farmer.jpg"
+                    image="https://thumbs.dreamstime.com/b/portrait-beautiful-female-farmer-holds-bunch-carrots-smiling-camera-wearing-straw-hat-surrounded-many-woman-167873027.jpg"
                     title="Image title"
                   />
                   <CardContent className={classes.cardContent}>
@@ -135,7 +135,7 @@ export default function Profiles() {
                 <Card className={classes.card}>
                   <CardMedia
                     className={classes.cardMedia}
-                    image="https://cdn.modernfarmer.com/wp-content/uploads/2014/05/femalefarmer2.jpg"
+                    image="https://media.npr.org/assets/img/2011/03/30/farmers_helen-86e0f6199d1ab0894e8242c7f207d29df342b3d5-s1200.jpg"
                     title="Image title"
                   />
                   <CardContent className={classes.cardContent}>
@@ -180,8 +180,7 @@ export default function Profiles() {
                 <Card className={classes.card}>
                   <CardMedia
                     className={classes.cardMedia}
-                    image="https://www.thetimes.co.uk/imageserver/image/methode%2Fsundaytimes%2Fprod%2Fweb%2Fbin%2F214fcc3e-ed7b-11e7-8539-e5d3352c849a.jpg?crop=2667%2C1500%2C0%2C0&resize=685"
-                    title="Image title"
+                    image="https://traininghouse.pt/wp-content/uploads/2016/09/female-tomato-farmer.jpg"
                   />
                   <CardContent className={classes.cardContent}>
                     <Typography gutterBottom variant="h5" component="h2">
