@@ -1,0 +1,32 @@
+.SignInSide {
+    height: 100vh;
+}
+
+.SignInSide-image {
+    background-image: url(https://source.unsplash.com/random);
+    background-repeat: no-repeat;
+    background-color: grey;
+    background-size: cover;
+    background-position: center;
+}
+
+.SignInSide-paper {
+    margin: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SignInSide-avatar {
+    margin: 32px;
+    background-color: fuchsia;
+}
+
+.SignInSide-form {
+    width: 100%;
+    margin-top: 8px;
+}
+
+.SignInSide-submit {
+    margin: 8px, 0px, 4px;
+}
