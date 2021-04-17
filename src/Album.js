@@ -121,14 +121,14 @@ export default function Album() {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </Typography>
                   </CardContent>
-                  {/* <CardActions>
+                  <CardActions>
                     <Button size="small" color="primary">
                       View
                     </Button>
-                    <Button size="small" color="primary">
+                    {/* <Button size="small" color="primary">
                       Edit
-                    </Button>
-                  </CardActions> */}
+                    </Button> */}
+                  </CardActions>
                 </Card>
               </Grid>
 
@@ -141,20 +141,20 @@ export default function Album() {
                   />
                   <CardContent className={classes.cardContent}>
                     <Typography gutterBottom variant="h5" component="h2">
-                      East Lothian Farm
+                      West Lothian Farm
                     </Typography>
                     <Typography>
                         Vitae auctor eu augue ut lectus arcu bibendum at varius. In hac habitasse platea dictumst vestibulum rhoncus. Luctus venenatis lectus magna fringilla urna porttitor. Enim sed faucibus turpis in. Ut consequat semper viverra nam libero. Id eu nisl nunc mi ipsum. 
                     </Typography>
                   </CardContent>
-                  {/* <CardActions>
+                  <CardActions>
                     <Button size="small" color="primary">
                       View
                     </Button>
-                    <Button size="small" color="primary">
+                    {/* <Button size="small" color="primary">
                       Edit
-                    </Button>
-                  </CardActions> */}
+                    </Button> */}
+                  </CardActions> 
                 </Card>
               </Grid>
 
@@ -167,20 +167,20 @@ export default function Album() {
                   />
                   <CardContent className={classes.cardContent}>
                     <Typography gutterBottom variant="h5" component="h2">
-                      East Lothian Farm
+                      Cairnie Farm
                     </Typography>
                     <Typography>
                     Massa enim nec dui nunc mattis enim ut tellus elementum. Fringilla ut morbi tincidunt augue interdum. A diam maecenas sed enim ut sem viverra. Nisi scelerisque eu ultrices vitae auctor eu augue ut lectus. Semper viverra nam libero justo laoreet sit amet. Lobortis scelerisque fermentum dui faucibus. Netus et malesuada fames ac turpis. Lobortis scelerisque fermentum dui faucibus in ornare. 
                     </Typography>
                   </CardContent>
-                  {/* <CardActions>
+                  <CardActions>
                     <Button size="small" color="primary">
                       View
                     </Button>
-                    <Button size="small" color="primary">
+                    {/* <Button size="small" color="primary">
                       Edit
-                    </Button>
-                  </CardActions> */}
+                    </Button> */}
+                  </CardActions>
                 </Card>
               </Grid>
 
@@ -193,19 +193,19 @@ export default function Album() {
                   />
                   <CardContent className={classes.cardContent}>
                     <Typography gutterBottom variant="h5" component="h2">
-                      East Lothian Farm
+                      Dunfermline Farm
                     </Typography>
                     <Typography>
                          Integer quis auctor elit sed vulputate mi sit amet. Iaculis eu non diam phasellus vestibulum. Risus sed vulputate odio ut enim blandit volutpat.                                        </Typography>
                   </CardContent>
-                  {/* <CardActions>
+                  <CardActions>
                     <Button size="small" color="primary">
                       View
                     </Button>
-                    <Button size="small" color="primary">
+                    {/* <Button size="small" color="primary">
                       Edit
-                    </Button>
-                  </CardActions> */}
+                    </Button> */}
+                  </CardActions>
                 </Card>
               </Grid>
                             
@@ -218,20 +218,20 @@ export default function Album() {
                   />
                   <CardContent className={classes.cardContent}>
                     <Typography gutterBottom variant="h5" component="h2">
-                      East Lothian Farm
+                      Aberdour Farm
                     </Typography>
                     <Typography>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </Typography>
                   </CardContent>
-                  {/* <CardActions>
+                  <CardActions>
                     <Button size="small" color="primary">
                       View
                     </Button>
-                    <Button size="small" color="primary">
+                    {/* <Button size="small" color="primary">
                       Edit
-                    </Button>
-                  </CardActions> */}
+                    </Button> */}
+                  </CardActions>
                 </Card>
 
                 
