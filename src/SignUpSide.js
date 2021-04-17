@@ -128,7 +128,6 @@ export default function SignUpSide() {
               type="submit"
               fullWidth
               variant="contained"
-              color="primary"
               className="SignUpSide-submit"
               href="/farms"
             >
@@ -136,12 +135,12 @@ export default function SignUpSide() {
             </Button>
             <Grid container>
               <Grid item xs>
-                <Link href="#" variant="body2">
+                <Link className="link" href="#" variant="body2">
                   Forgot password?
                 </Link>
               </Grid>
               <Grid item>
-                <Link href="/login" variant="body2">
+                <Link className= "link" href="/login" variant="body2">
                   {"Already have an account? Sign In"}
                 </Link>
               </Grid>
