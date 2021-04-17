@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import SignInSide from './SignInSide';
+import   LandingPage from './Landingpg';
 import reportWebVitals from './reportWebVitals';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <SignInSide />
+    <LandingPage />
   </React.StrictMode>,
   document.getElementById('root')
 );
