@@ -1,22 +1,3 @@
-// import React from 'react';
-// import ReactDOM from 'react-dom';
-// import './index.css';
-// import   LandingPage from './Landingpg';
-// import reportWebVitals from './reportWebVitals';
-
-
-// ReactDOM.render(
-//   <React.StrictMode>
-//     <LandingPage />
-//   </React.StrictMode>,
-//   document.getElementById('root')
-// );
-
-// // If you want to start measuring performance in your app, pass a function
-// // to log results (for example: reportWebVitals(console.log))
-// // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-// reportWebVitals();
-
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Route } from 'react-router-dom';
@@ -28,6 +9,7 @@ import Profiles from './Profiles'
 import Cart from './Cart'
 import SignUpSide from './SignUpSide'
 import PotatoeSearch from './PotatoeSearch'
+import Checkout from './Checkout'
 
 
 
@@ -40,6 +22,7 @@ const Routes = () => (
           <Route exact path="/farms" component={Profiles} />
           <Route exact path="/West-Lothian-Farm" component={Cart} />
           <Route exact path="/search" component={PotatoeSearch} />
+          <Route exact path="/Checkout" component={Checkout} />
       </App>
   </BrowserRouter>
 );
