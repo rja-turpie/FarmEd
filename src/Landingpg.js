@@ -16,7 +16,7 @@ function Landingpg() {
         <p>
           We're dedicated to connecting you to your local farm for a more sustainable shopping experience
         </p>
-        <Button variant="contained" color="rgb(73, 110, 49)" href = "/login">
+        <Button variant="contained" color="rgb(73, 110, 49)" href = "/farms">
         Explore Farms Nearby
         </Button>
         </header>
