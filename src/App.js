@@ -1,9 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import { Button } from '@material-ui/core';
+import Search from './search';
+
+
 
 function App() {
   return (
     <div className="App">
+      <Button color = "primary">UR MUM</Button>
+      <Search />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
