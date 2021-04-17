@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import  Album from './Lan';
+import   LandingPage from './Landingpg';
 import reportWebVitals from './reportWebVitals';
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <Album />
+    <LandingPage />
   </React.StrictMode>,
   document.getElementById('root')
 );
