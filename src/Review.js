@@ -10,7 +10,7 @@ const products = [
   { name: 'Charlotte Potatoes', desc: '1.5kg', price: '£1.02' },
   { name: 'Beef Tomatoes', desc: '0.5kg', price: '£1.02' },
   { name: 'Chantenay Carrots', desc: '1.0kg', price: '£0.38' },
-  { name: 'Resuable FarmEd Box', desc: 'Box for first time user to collect our produce', price: '£5.00' },
+  { name: 'Resuable Re:Fresh Box', desc: 'Box for first time user to collect our produce', price: '£5.00' },
   { name: 'Collection', desc: '', price: 'Local shop' },
 ];
 const addresses = ['Fair Price Food Store', '46A Onslow St', 'Livingston', 'EH54 5HR'];
