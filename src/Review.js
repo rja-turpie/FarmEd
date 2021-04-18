@@ -7,16 +7,16 @@ import ListItemText from '@material-ui/core/ListItemText';
 import Grid from '@material-ui/core/Grid';
 
 const products = [
-  { name: 'Potatoes', desc: '1.5kg', price: '£1.00' },
-  { name: 'Tomatoes', desc: '1kg', price: '£2.00' },
-  { name: 'Carrots', desc: '0.5kg', price: '£0.40' },
-  { name: 'Resuable FarmEd Box', desc: 'Box for first time user to collect our produce', price: '£5' },
+  { name: 'Charlotte Potatoes', desc: '1.5kg', price: '£1.02' },
+  { name: 'Beef Tomatoes', desc: '0.5kg', price: '£1.02' },
+  { name: 'Chantenay Carrots', desc: '1.0kg', price: '£0.38' },
+  { name: 'Resuable FarmEd Box', desc: 'Box for first time user to collect our produce', price: '£5.00' },
   { name: 'Collection', desc: '', price: 'Local shop' },
 ];
 const addresses = ['Fair Price Food Store', '46A Onslow St', 'Livingston', 'EH54 5HR'];
 const payments = [
   { name: 'Card type', detail: 'Visa' },
-  { name: 'Card holder', detail: 'Mr John Smith' },
+  { name: 'Card holder', detail: 'Miss Jane Smith' },
   { name: 'Card number', detail: 'xxxx-xxxx-xxxx-1234' },
   { name: 'Expiry date', detail: '04/2024' },
 ];
@@ -51,7 +51,7 @@ export default function Review() {
         <ListItem className={classes.listItem}>
           <ListItemText primary="Total" />
           <Typography variant="subtitle1" className={classes.total}>
-            £8.40
+            £7.42
           </Typography>
         </ListItem>
       </List>
