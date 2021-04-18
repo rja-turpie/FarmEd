@@ -155,7 +155,7 @@ export default function Cart() {
   return (
     <React.Fragment>
       <CssBaseline />
-      <Header title="Re:Fresh"  />
+      {/* <Header title="Re:Fresh"  /> */}
       <AppBar position="relative">
       </AppBar>
       
