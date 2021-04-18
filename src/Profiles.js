@@ -14,7 +14,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import Link from '@material-ui/core/Link';
 import Search from './search';
-import Header from './Header';
+
 
 function Copyright() {
   return (
@@ -70,7 +70,7 @@ export default function Profiles() {
       <AppBar position="relative">
       </AppBar>
       <main>
-        <Header title="Re:Fresh"  />
+        <Search />
         {/* Hero unit */}
         <div className={classes.heroContent} >
           <Container maxWidth="sm">
@@ -84,7 +84,6 @@ export default function Profiles() {
             </Typography>
           </Container>
         </div>
-        <Search />
         <Container className={classes.cardGrid} maxWidth="md">
           {/* End hero unit */}
           <Grid container spacing={4} direction>
