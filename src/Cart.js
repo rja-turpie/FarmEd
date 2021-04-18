@@ -199,7 +199,7 @@ export default function Cart() {
                     </Typography>
                     <div align="center">
                     <Typography>
-                        Catch the last of our Beef Tomato harvest.
+                        Catch the last of our Beef Tomato harvest. <i>Next harvest in 2 weeks.</i>
                         <br></br>
                         £2.03 /kg
                     </Typography>
@@ -220,6 +220,38 @@ export default function Cart() {
                   </CardContent>
                 </Card>
               </Grid>
+
+              <Grid item xs={12} sm={6} md={4}>
+                <Card className={classes.card}>
+                  <CardMedia
+                    className={classes.cardMedia}
+                    image="https://post.greatist.com/wp-content/uploads/2020/08/766x415_Carrot_Allergy-1-732x415.jpg"
+                    title="Image title"
+                  />
+                  <CardContent className={classes.cardContent}>
+                    <Typography gutterBottom variant="h5" component="h2" align="center">
+                      Chantenay Carrots
+                    </Typography>
+                    <div align="center">
+                    <Typography>
+                        Our award-winning chantanay carrots.
+
+                        <br></br>
+                        £0.38 /kg                    
+                    </Typography>
+
+                    <button type="button" class="btn" onClick={decrement1}>
+                      -
+                    </button>
+                    <input type="text" id="number1" value="0" class="input-txt"/>
+                    <button type="button" class="btn" onClick={increment1}>
+                      +
+                    </button>
+                    </div>
+                  </CardContent>
+                </Card>
+              </Grid>
+
               <Grid item xs={12} sm={6} md={4}>
                 <Card className={classes.card}>
                   <CardMedia
@@ -345,36 +377,7 @@ export default function Cart() {
 
                 
               </Grid>
-              <Grid item xs={12} sm={6} md={4}>
-                <Card className={classes.card}>
-                  <CardMedia
-                    className={classes.cardMedia}
-                    image="https://post.greatist.com/wp-content/uploads/2020/08/766x415_Carrot_Allergy-1-732x415.jpg"
-                    title="Image title"
-                  />
-                  <CardContent className={classes.cardContent}>
-                    <Typography gutterBottom variant="h5" component="h2" align="center">
-                      Chantenay Carrots
-                    </Typography>
-                    <div align="center">
-                    <Typography>
-                        Our award-winning chantanay carrots. <i>Next harvest in 2 weeks.</i>
-
-                        <br></br>
-                        £0.38 /kg                    
-                    </Typography>
-
-                    <button type="button" class="btn" onClick={decrement1}>
-                      -
-                    </button>
-                    <input type="text" id="number1" value="0" class="input-txt"/>
-                    <button type="button" class="btn" onClick={increment1}>
-                      +
-                    </button>
-                    </div>
-                  </CardContent>
-                </Card>
-              </Grid>
+              
               
           </Grid>
         </Container>
