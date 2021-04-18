@@ -122,7 +122,7 @@ const useStyles = makeStyles((theme) => ({
     marginRight: theme.spacing(2),
   },
   heroContent: {
-    backgroundColor: theme.palette.background.paper,
+    backgroundColor: 'rgb(177, 206, 151)',
     padding: theme.spacing(8, 0, 6),
   },
   heroButtons: {
@@ -144,7 +144,7 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
   },
   footer: {
-    backgroundColor: theme.palette.background.paper,
+    backgroundColor: 'rgb(177, 206, 151)',
     padding: theme.spacing(6),
   },
 }));
@@ -161,8 +161,8 @@ export default function Cart() {
       <main>
         {/* Hero unit */}
         <div className={classes.heroContent}>
-          <Container maxWidth="sm">
-            <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
+          <Container maxWidth="sm" >
+            <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom >
               West Lothian Farm
             </Typography>
             <Typography variant="h5" align="center" color="textSecondary" paragraph>
