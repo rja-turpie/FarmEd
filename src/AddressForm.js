@@ -102,7 +102,7 @@ export default function AddressForm() {
         <Grid item xs={12}>
           <FormControlLabel
             control={<Checkbox color="secondary" name="firstPurchase" value="yes" />}
-            label="Is this your first time purchasing with FarmEd"
+            label="Is this your first time purchasing with Re:Fresh"
           />
         </Grid>
       </Grid>
