@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './Cart.css';
 import AppBar from '@material-ui/core/AppBar';
 import Button from '@material-ui/core/Button';
-import CameraIcon from '@material-ui/icons/PhotoCamera';
+import './PotatoeSearch.css'
 import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
@@ -131,6 +131,9 @@ export default function Cart() {
                   <CardContent className={classes.cardContent}>
                     <Typography gutterBottom variant="h5" component="h2" align="center">
                       Charlotte Potatoes
+                      <button type="button" class="btn">
+                      East Lothian Farm
+                    </button>
                     </Typography>
                     <div align="center">
                     <Typography>
@@ -166,7 +169,11 @@ export default function Cart() {
                   <CardContent className={classes.cardContent}>
                     <Typography gutterBottom variant="h5" component="h2" align="center">
                       Maris Piper Potatoes
+                      <button type="button" class="btn">
+                      Aberdour Farm
+                    </button>
                     </Typography>
+                    
                     <div align="center">
                     <Typography>
                         We've been growing the best Maris Piper potatoes in Fife for 15  years and counting.
@@ -196,6 +203,9 @@ export default function Cart() {
                   <CardContent className={classes.cardContent}>
                     <Typography gutterBottom variant="h5" component="h2" align="center">
                       Baby Potatoes
+                      <button type="button" class="btn">
+                      Cairnie Farm
+                    </button>
                     </Typography>
                     <div align="center">
                     <Typography>
@@ -226,10 +236,13 @@ export default function Cart() {
                   <CardContent className={classes.cardContent}>
                     <Typography gutterBottom variant="h5" component="h2" align="center">
                       Desiree Potatoes
+                      <button type="button" class="btn">
+                      West Lothian Farm
+                    </button>
                     </Typography>
                     <div align="center">
                     <Typography>
-                        Our Desiree Potatoes are still in harvest, and are great boiled baked, or mashed.
+                    Our Desiree Potatoes are still in harvest, and are great boiled, mashed, or chucked into a stew.
                         <br></br>
                         £0.73 /kg                  
                     </Typography>
