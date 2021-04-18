@@ -295,7 +295,7 @@ export default function Cart() {
                     </Typography>
                     <div align="center">
                     <Typography>
-                        Our Desiree Potatoes are still in harvest, and are great boiled bakes, or mashed.
+                        Our Desiree Potatoes are still in harvest, and are great boiled baked, or mashed.
                         <br></br>
                         £0.73 /kg                  
                     </Typography>

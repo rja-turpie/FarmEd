@@ -125,18 +125,18 @@ export default function Cart() {
                 <Card className={classes.card}>
                   <CardMedia
                     className={classes.cardMedia}
-                    image="http://www.cpm-magazine.co.uk/wp-content/uploads/2019/04/Desiree-crop5-1-600x400.jpg"
+                    image="http://www.planetnatural.com/wp-content/uploads/2014/04/garden-potatoes.jpg"
                     title="Image title"
                   />
                   <CardContent className={classes.cardContent}>
                     <Typography gutterBottom variant="h5" component="h2" align="center">
-                      Desiree Potatoes
+                      Charlotte Potatoes
                     </Typography>
                     <div align="center">
                     <Typography>
-                    Our Desiree Potatoes are still in harvest, and are great boiled bakes, or mashed.
+                    Great in salads, our charlotte potatoes are fully grown and ready for harvest.
                         <br></br>
-                        £0.73 /kg
+                        £0.68 /kg
                     </Typography>
                     
                    
@@ -220,18 +220,18 @@ export default function Cart() {
                 <Card className={classes.card}>
                   <CardMedia
                     className={classes.cardMedia}
-                    image="http://www.planetnatural.com/wp-content/uploads/2014/04/garden-potatoes.jpg"
+                    image="http://www.cpm-magazine.co.uk/wp-content/uploads/2019/04/Desiree-crop5-1-600x400.jpg"
                     title="Image title"
                   />
                   <CardContent className={classes.cardContent}>
                     <Typography gutterBottom variant="h5" component="h2" align="center">
-                      Charlotte Potatoes
+                      Desiree Potatoes
                     </Typography>
                     <div align="center">
                     <Typography>
-                        Great in salads, our charlotte potatoes are fully grown and ready for harvest.
+                        Our Desiree Potatoes are still in harvest, and are great boiled baked, or mashed.
                         <br></br>
-                        £0.68 /kg                  
+                        £0.73 /kg                  
                     </Typography>
 
                     <button type="button" class="btn" onClick={decrement}>
