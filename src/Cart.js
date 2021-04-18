@@ -162,7 +162,7 @@ export default function Cart() {
       <main>
         {/* Hero unit */}
         <div className={classes.heroContent}>
-          <Container maxWidth="sm">
+          <Container maxWidth="sm" class = "farmImage">
             <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
               West Lothian Farm
             </Typography>
@@ -184,7 +184,7 @@ export default function Cart() {
             </div>
           </Container>
         </div>
-        <Container className={classes.cardGrid} maxWidth="md">
+        <Container className={classes.cardGrid} maxWidth="md" >
           {/* End hero unit */}
           <Search />
           <Grid container spacing={4} direction>
