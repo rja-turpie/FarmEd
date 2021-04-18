@@ -155,9 +155,10 @@ export default function Cart() {
   return (
     <React.Fragment>
       <CssBaseline />
+      <Header title="Re:Fresh"  />
       <AppBar position="relative">
       </AppBar>
-      <Search />
+      
       <main>
         {/* Hero unit */}
         <div className={classes.heroContent}>
@@ -185,6 +186,7 @@ export default function Cart() {
         </div>
         <Container className={classes.cardGrid} maxWidth="md">
           {/* End hero unit */}
+          <Search />
           <Grid container spacing={4} direction>
               <Grid item xs={12} sm={6} md={4}>
                 <Card className={classes.card}>
