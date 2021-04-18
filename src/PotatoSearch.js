@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './Cart.css';
 import AppBar from '@material-ui/core/AppBar';
 import Button from '@material-ui/core/Button';
-import CameraIcon from '@material-ui/icons/PhotoCamera';
+import './PotatoSearch.css'
 import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
@@ -16,21 +16,6 @@ import Container from '@material-ui/core/Container';
 import Link from '@material-ui/core/Link';
 import Search from './search';
 import Header from './Header';
-
-function Copyright() {
-  return (
-    <Typography variant="body2" color="textSecondary" align="center">
-      {'Copyright © '}
-      <Link color="inherit" href="https://material-ui.com/">
-        Your Website
-      </Link>{' '}
-      {new Date().getFullYear()}
-      {'.'}
-    </Typography>
-  );
-}
-
-
 
 function increment() {
   var value = parseFloat(document.getElementById('number').value, 10);
@@ -53,7 +38,7 @@ const useStyles = makeStyles((theme) => ({
     marginRight: theme.spacing(2),
   },
   heroContent: {
-    backgroundColor: theme.palette.background.paper,
+    backgroundColor: 'rgb(177, 206, 151)',
     padding: theme.spacing(8, 0, 6),
   },
   heroButtons: {
@@ -75,7 +60,7 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
   },
   footer: {
-    backgroundColor: theme.palette.background.paper,
+    backgroundColor: 'rgb(177, 206, 151)',
     padding: theme.spacing(6),
   },
 }));
@@ -111,7 +96,7 @@ export default function Cart() {
                   </Button>
                 </Grid> */}
                 <Grid item>
-                  <Button variant="outlined" color="primary" href="/Checkout">
+                  <Button variant="outlined" color="#496E31" href="/Checkout">
                     Checkout
                   </Button>
                 </Grid>
@@ -133,6 +118,9 @@ export default function Cart() {
                   <CardContent className={classes.cardContent}>
                     <Typography gutterBottom variant="h5" component="h2" align="center">
                       Charlotte Potatoes
+                      <button type="button" class="btn">
+                      East Lothian Farm
+                    </button>
                     </Typography>
                     <div align="center">
                     <Typography>
@@ -168,7 +156,11 @@ export default function Cart() {
                   <CardContent className={classes.cardContent}>
                     <Typography gutterBottom variant="h5" component="h2" align="center">
                       Maris Piper Potatoes
+                      <button type="button" class="btn">
+                      Aberdour Farm
+                    </button>
                     </Typography>
+                    
                     <div align="center">
                     <Typography>
                         We've been growing the best Maris Piper potatoes in Fife for 15  years and counting.
@@ -198,6 +190,9 @@ export default function Cart() {
                   <CardContent className={classes.cardContent}>
                     <Typography gutterBottom variant="h5" component="h2" align="center">
                       Baby Potatoes
+                      <button type="button" class="btn">
+                      Cairnie Farm
+                    </button>
                     </Typography>
                     <div align="center">
                     <Typography>
@@ -228,10 +223,13 @@ export default function Cart() {
                   <CardContent className={classes.cardContent}>
                     <Typography gutterBottom variant="h5" component="h2" align="center">
                       Desiree Potatoes
+                      <button type="button" class="btn">
+                      West Lothian Farm
+                    </button>
                     </Typography>
                     <div align="center">
                     <Typography>
-                        Our Desiree Potatoes are still in harvest, and are great boiled baked, or mashed.
+                    Our Desiree Potatoes are still in harvest, and are great boiled, mashed, or chucked into a stew.
                         <br></br>
                         £0.73 /kg                  
                     </Typography>
@@ -246,76 +244,7 @@ export default function Cart() {
                     </div>
                   </CardContent>
                 </Card>
-              </Grid>
-                            
-              {/* <Grid item xs={12} sm={6} md={4}>
-                <Card className={classes.card}>
-                  <CardMedia
-                    className={classes.cardMedia}
-                    image="https://post.healthline.com/wp-content/uploads/2020/09/health-benefits-of-eggs-732x549-thumbnail-732x549.jpg"
-                    title="Image title"
-                  />
-                  <CardContent className={classes.cardContent}>
-                    <Typography gutterBottom variant="h5" component="h2" align="center">
-                      Eggs
-                    </Typography>
-                    <div align="center">
-                    <Typography>
-                        Description
-                        <br></br>
-                        Price
-                        <br></br>
-                        Quanity                    
-                    </Typography>
-
-                    <button type="button" class="btn" onClick={decrement}>
-                      -
-                    </button>
-                    <input type="text" id="number" value="0" class="input-txt"/>
-                    <button type="button" class="btn" onClick={increment}>
-                      +
-                    </button>
-                    </div>
-                  </CardContent>
-                </Card>
-
-                
-              </Grid> */}
-
-              {/* <Grid item xs={12} sm={6} md={4}>
-                <Card className={classes.card}>
-                  <CardMedia
-                    className={classes.cardMedia}
-                    image="https://avec-poultry.eu/wp-content/uploads/2018/04/38686671_drumsticks_cropped.jpg"
-                    title="Image title"
-                  />
-                  <CardContent className={classes.cardContent}>
-                    <Typography gutterBottom variant="h5" component="h2" align="center">
-                      Chicken
-                    </Typography>
-                    <div align="center">
-                    <Typography>
-                        Description
-                        <br></br>
-                        Price
-                        <br></br>
-                        Quanity                    
-                    </Typography>
-
-                    <button type="button" class="btn" onClick={decrement}>
-                      -
-                    </button>
-                    <input type="text" id="number" value="0" class="input-txt"/>
-                    <button type="button" class="btn" onClick={increment}>
-                      +
-                    </button>
-                    </div>
-                  </CardContent>
-                </Card>
-
-                
-              </Grid> */}
-              
+              </Grid>            
               
           </Grid>
         </Container>
@@ -328,7 +257,6 @@ export default function Cart() {
         <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
         Farm fresh food delivered straight from farm to you.
         </Typography>
-        <Copyright />
       </footer>
       {/* End footer */}
     </React.Fragment>
