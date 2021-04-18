@@ -8,7 +8,7 @@ import SignInSide from './SignInSide'
 import Profiles from './Profiles'
 import Cart from './Cart'
 import SignUpSide from './SignUpSide'
-import PotatoeSearch from './PotatoSearch'
+import PotatoSearch from './PotatoSearch'
 import Checkout from './Checkout'
 
 const Routes = () => (
@@ -19,7 +19,7 @@ const Routes = () => (
           <Route exact path="/" component={Landingpg} />
           <Route exact path="/farms" component={Profiles} />
           <Route exact path="/West-Lothian-Farm" component={Cart} />
-          <Route exact path="/search" component={PotatoeSearch} />
+          <Route exact path="/search" component={PotatoSearch} />
           <Route exact path="/Checkout" component={Checkout} />
       </App>
   </BrowserRouter>

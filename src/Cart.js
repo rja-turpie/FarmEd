@@ -2,14 +2,12 @@ import React, { Component } from 'react';
 import './Cart.css';
 import AppBar from '@material-ui/core/AppBar';
 import Button from '@material-ui/core/Button';
-import CameraIcon from '@material-ui/icons/PhotoCamera';
 import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Grid from '@material-ui/core/Grid';
-import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
@@ -151,7 +149,8 @@ export default function Cart() {
               West Lothian Farm
             </Typography>
             <Typography variant="h5" align="center" color="textSecondary" paragraph>
-              Vitae auctor eu augue ut lectus arcu bibendum at varius. In hac habitasse platea dictumst vestibulum rhoncus. Luctus venenatis lectus magna fringilla urna porttitor. Enim sed faucibus turpis in. Ut consequat semper viverra nam libero. Id eu nisl nunc mi ipsum.            </Typography>
+            West Lothian farm in bonnie Livingston has been a family business for over 80 years. We are an organic farm, raising free-range chickens in our pastures and never using pesticides on our crops. We believe the future of food is found in organic farming, and we hope to spread that ethos, one harvest at a time. 
+            </Typography>
             <div className={classes.heroButtons}>
               <Grid container spacing={2} justify="center">
                 <Grid item>
@@ -185,7 +184,7 @@ export default function Cart() {
                     </Typography>
                     <div align="center">
                     <Typography>
-                        Catch the last of our Beef Tomatoe Harvest.
+                        Catch the last of our Beef Tomato harvest.
                         <br></br>
                         £2.03 /kg
                     </Typography>
@@ -206,30 +205,29 @@ export default function Cart() {
                   </CardContent>
                 </Card>
               </Grid>
-
               <Grid item xs={12} sm={6} md={4}>
                 <Card className={classes.card}>
                   <CardMedia
                     className={classes.cardMedia}
-                    image="https://post.greatist.com/wp-content/uploads/2020/08/766x415_Carrot_Allergy-1-732x415.jpg"
+                    image="http://www.cpm-magazine.co.uk/wp-content/uploads/2019/04/Desiree-crop5-1-600x400.jpg"
                     title="Image title"
                   />
                   <CardContent className={classes.cardContent}>
                     <Typography gutterBottom variant="h5" component="h2" align="center">
-                      Chantenay Carrots
+                      Desiree Potatoes
                     </Typography>
                     <div align="center">
                     <Typography>
-                        Our award-winning chantanay carrots make the perfect healthy snack.
+                        Our Desiree Potatoes are still in harvest, and are great boiled, mashed, or chucked into a stew.
                         <br></br>
-                        £0.38 /kg                    
+                        £0.73 /kg                  
                     </Typography>
 
-                    <button type="button" class="btn" onClick={decrement1}>
+                    <button type="button" class="btn" onClick={decrement3}>
                       -
                     </button>
-                    <input type="text" id="number1" value="0" class="input-txt"/>
-                    <button type="button" class="btn" onClick={increment1}>
+                    <input type="text" id="number3" value="0" class="input-txt"/>
+                    <button type="button" class="btn" onClick={increment3}>
                       +
                     </button>
                     </div>
@@ -268,35 +266,6 @@ export default function Cart() {
                 </Card>
               </Grid>
 
-              <Grid item xs={12} sm={6} md={4}>
-                <Card className={classes.card}>
-                  <CardMedia
-                    className={classes.cardMedia}
-                    image="http://www.cpm-magazine.co.uk/wp-content/uploads/2019/04/Desiree-crop5-1-600x400.jpg"
-                    title="Image title"
-                  />
-                  <CardContent className={classes.cardContent}>
-                    <Typography gutterBottom variant="h5" component="h2" align="center">
-                      Desiree Potatoes
-                    </Typography>
-                    <div align="center">
-                    <Typography>
-                        Our Desiree Potatoes are still in harvest, and are great boiled baked, or mashed.
-                        <br></br>
-                        £0.73 /kg                  
-                    </Typography>
-
-                    <button type="button" class="btn" onClick={decrement3}>
-                      -
-                    </button>
-                    <input type="text" id="number3" value="0" class="input-txt"/>
-                    <button type="button" class="btn" onClick={increment3}>
-                      +
-                    </button>
-                    </div>
-                  </CardContent>
-                </Card>
-              </Grid>
                             
               <Grid item xs={12} sm={6} md={4}>
                 <Card className={classes.card}>
@@ -311,7 +280,7 @@ export default function Cart() {
                     </Typography>
                     <div align="center">
                     <Typography>
-                        Our eggs are delivered to yuo within 24 hours of being laid.
+                        Our eggs are delivered to you within 24 hours of being laid.
                         <br></br>
                         £0.21 /Egg
                    </Typography>
@@ -343,7 +312,7 @@ export default function Cart() {
                     </Typography>
                     <div align="center">
                     <Typography>
-                        Our free range leghorn chickens are treated with love and care.
+                        Our free-range leghorn chickens are treated with love and care.
                         <br></br>
                         £3.75 /Chicken                    
                     </Typography>
@@ -361,7 +330,36 @@ export default function Cart() {
 
                 
               </Grid>
-              
+              <Grid item xs={12} sm={6} md={4}>
+                <Card className={classes.card}>
+                  <CardMedia
+                    className={classes.cardMedia}
+                    image="https://post.greatist.com/wp-content/uploads/2020/08/766x415_Carrot_Allergy-1-732x415.jpg"
+                    title="Image title"
+                  />
+                  <CardContent className={classes.cardContent}>
+                    <Typography gutterBottom variant="h5" component="h2" align="center">
+                      Chantenay Carrots
+                    </Typography>
+                    <div align="center">
+                    <Typography>
+                        Our award-winning chantanay carrots. <i>Next harvest in 2 weeks.</i>
+
+                        <br></br>
+                        £0.38 /kg                    
+                    </Typography>
+
+                    <button type="button" class="btn" onClick={decrement1}>
+                      -
+                    </button>
+                    <input type="text" id="number1" value="0" class="input-txt"/>
+                    <button type="button" class="btn" onClick={increment1}>
+                      +
+                    </button>
+                    </div>
+                  </CardContent>
+                </Card>
+              </Grid>
               
           </Grid>
         </Container>
