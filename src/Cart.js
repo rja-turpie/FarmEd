@@ -16,21 +16,6 @@ import Container from '@material-ui/core/Container';
 import Link from '@material-ui/core/Link';
 import Search from './search';
 
-function Copyright() {
-  return (
-    <Typography variant="body2" color="textSecondary" align="center">
-      {'Copyright © '}
-      <Link color="inherit" href="https://material-ui.com/">
-        Your Website
-      </Link>{' '}
-      {new Date().getFullYear()}
-      {'.'}
-    </Typography>
-  );
-}
-
-
-
 function increment0() {
   var value = parseFloat(document.getElementById('number').value, 10);
   value = isNaN(value) ? 0 : value;
@@ -155,7 +140,6 @@ export default function Cart() {
   return (
     <React.Fragment>
       <CssBaseline />
-      {/* <Header title="Re:Fresh"  /> */}
       <AppBar position="relative">
       </AppBar>
       
@@ -390,7 +374,6 @@ export default function Cart() {
         <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
           Farm fresh food delivered straight from farm to you.
         </Typography>
-        <Copyright />
       </footer>
       {/* End footer */}
     </React.Fragment>
