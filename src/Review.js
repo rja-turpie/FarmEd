@@ -5,6 +5,7 @@ import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import Grid from '@material-ui/core/Grid';
+import Header from './Header';
 
 const products = [
   { name: 'Charlotte Potatoes', desc: '1.5kg', price: '£1.02' },
@@ -38,6 +39,7 @@ export default function Review() {
 
   return (
     <React.Fragment>
+      <Header />
       <Typography variant="h6" gutterBottom>
         Order summary
       </Typography>
