@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './Cart.css';
 import AppBar from '@material-ui/core/AppBar';
 import Button from '@material-ui/core/Button';
-import './PotatoeSearch.css'
+import './PotatoSearch.css'
 import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
@@ -15,21 +15,6 @@ import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import Link from '@material-ui/core/Link';
 import Search from './search';
-
-function Copyright() {
-  return (
-    <Typography variant="body2" color="textSecondary" align="center">
-      {'Copyright © '}
-      <Link color="inherit" href="https://material-ui.com/">
-        Your Website
-      </Link>{' '}
-      {new Date().getFullYear()}
-      {'.'}
-    </Typography>
-  );
-}
-
-
 
 function increment() {
   var value = parseFloat(document.getElementById('number').value, 10);
@@ -257,76 +242,7 @@ export default function Cart() {
                     </div>
                   </CardContent>
                 </Card>
-              </Grid>
-                            
-              {/* <Grid item xs={12} sm={6} md={4}>
-                <Card className={classes.card}>
-                  <CardMedia
-                    className={classes.cardMedia}
-                    image="https://post.healthline.com/wp-content/uploads/2020/09/health-benefits-of-eggs-732x549-thumbnail-732x549.jpg"
-                    title="Image title"
-                  />
-                  <CardContent className={classes.cardContent}>
-                    <Typography gutterBottom variant="h5" component="h2" align="center">
-                      Eggs
-                    </Typography>
-                    <div align="center">
-                    <Typography>
-                        Description
-                        <br></br>
-                        Price
-                        <br></br>
-                        Quanity                    
-                    </Typography>
-
-                    <button type="button" class="btn" onClick={decrement}>
-                      -
-                    </button>
-                    <input type="text" id="number" value="0" class="input-txt"/>
-                    <button type="button" class="btn" onClick={increment}>
-                      +
-                    </button>
-                    </div>
-                  </CardContent>
-                </Card>
-
-                
-              </Grid> */}
-
-              {/* <Grid item xs={12} sm={6} md={4}>
-                <Card className={classes.card}>
-                  <CardMedia
-                    className={classes.cardMedia}
-                    image="https://avec-poultry.eu/wp-content/uploads/2018/04/38686671_drumsticks_cropped.jpg"
-                    title="Image title"
-                  />
-                  <CardContent className={classes.cardContent}>
-                    <Typography gutterBottom variant="h5" component="h2" align="center">
-                      Chicken
-                    </Typography>
-                    <div align="center">
-                    <Typography>
-                        Description
-                        <br></br>
-                        Price
-                        <br></br>
-                        Quanity                    
-                    </Typography>
-
-                    <button type="button" class="btn" onClick={decrement}>
-                      -
-                    </button>
-                    <input type="text" id="number" value="0" class="input-txt"/>
-                    <button type="button" class="btn" onClick={increment}>
-                      +
-                    </button>
-                    </div>
-                  </CardContent>
-                </Card>
-
-                
-              </Grid> */}
-              
+              </Grid>            
               
           </Grid>
         </Container>
@@ -339,7 +255,6 @@ export default function Cart() {
         <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
         Farm fresh food delivered straight from farm to you.
         </Typography>
-        <Copyright />
       </footer>
       {/* End footer */}
     </React.Fragment>

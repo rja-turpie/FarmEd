@@ -16,20 +16,6 @@ import Link from '@material-ui/core/Link';
 import Search from './search';
 import Header from './Header';
 
-
-function Copyright() {
-  return (
-    <Typography variant="body2" color="textSecondary" align="center">
-      {'Copyright © '}
-      <Link color="inherit" href="https://material-ui.com/">
-        Your Website
-      </Link>{' '}
-      {new Date().getFullYear()}
-      {'.'}
-    </Typography>
-  );
-}
-
 const useStyles = makeStyles((theme) => ({
   icon: {
     marginRight: theme.spacing(2),
@@ -223,7 +209,6 @@ export default function Profiles() {
         <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
         Farm fresh food delivered straight from farm to you.
         </Typography>
-        <Copyright />
       </footer>
       {/* End footer */}
     </React.Fragment>
