@@ -91,7 +91,7 @@ export default function Profiles() {
                       East Lothian Farm
                     </Typography>
                     <Typography>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    We raise the only Aberdeen Angus cows in the central Scottish belt. We have been in the cattle-farming business for 20 years, raising only grass-fed beef and the freshest milk. 
                     </Typography>
                   </CardContent>
                   <CardActions style={{justifyContent: 'center'}}>
@@ -114,7 +114,7 @@ export default function Profiles() {
                       West Lothian Farm
                     </Typography>
                     <Typography>
-                        Vitae auctor eu augue ut lectus arcu bibendum at varius. In hac habitasse platea dictumst vestibulum rhoncus. Luctus venenatis lectus magna fringilla urna porttitor. Enim sed faucibus turpis in. Ut consequat semper viverra nam libero. Id eu nisl nunc mi ipsum. 
+                    West Lothian farm in bonnie Livingston has been a family business for over 80 years. We are an organic farm, raising free-range chickens in our pastures and never using pesticides on our crops. We believe the future of food is found in organic farming, and we hope to spread that ethos, one harvest at a time. 
                     </Typography>
                   </CardContent>
                   <CardActions style={{justifyContent: 'center'}}>
@@ -129,7 +129,7 @@ export default function Profiles() {
                 <Card className={classes.card}>
                   <CardMedia
                     className={classes.cardMedia}
-                    image="https://media.npr.org/assets/img/2011/03/30/farmers_helen-86e0f6199d1ab0894e8242c7f207d29df342b3d5-s1200.jpg"
+                    image="https://traininghouse.pt/wp-content/uploads/2016/09/female-tomato-farmer.jpg"
                     title="Image title"
                   />
                   <CardContent className={classes.cardContent}>
@@ -137,7 +137,7 @@ export default function Profiles() {
                       Cairnie Farm
                     </Typography>
                     <Typography>
-                    Massa enim nec dui nunc mattis enim ut tellus elementum. Fringilla ut morbi tincidunt augue interdum. A diam maecenas sed enim ut sem viverra. Nisi scelerisque eu ultrices vitae auctor eu augue ut lectus. Semper viverra nam libero justo laoreet sit amet. Lobortis scelerisque fermentum dui faucibus. Netus et malesuada fames ac turpis. Lobortis scelerisque fermentum dui faucibus in ornare. 
+                    Cairnie Farm is a long established family run business in Cupar, Fife and is a popular local landmark. Situated on 120 acres of land, our farm is mostly used to grow pesticide-free fruit, and doesn’t grow any GMO foods. We love what we do, and want to encourage folks in Scotland to eat more fruit.
                     </Typography>
                   </CardContent>
                   <CardActions style={{justifyContent: 'center'}}>
@@ -160,7 +160,8 @@ export default function Profiles() {
                       Dunfermline Farm
                     </Typography>
                     <Typography>
-                         Integer quis auctor elit sed vulputate mi sit amet. Iaculis eu non diam phasellus vestibulum. Risus sed vulputate odio ut enim blandit volutpat.                                        </Typography>
+                         We are a grain farm growing wheat, barley, and oats. We work with the local mill to offer multiple types of grind of grain, and also supply local breweries with hops for their beers.                                        
+                    </Typography>
                   </CardContent>
                   <CardActions style={{justifyContent: 'center'}}>
                     <Button size="small" style={{ color:  'rgb(73, 110, 49)' }}>
@@ -174,14 +175,14 @@ export default function Profiles() {
                 <Card className={classes.card}>
                   <CardMedia
                     className={classes.cardMedia}
-                    image="https://traininghouse.pt/wp-content/uploads/2016/09/female-tomato-farmer.jpg"
+                    image="https://media.npr.org/assets/img/2011/03/30/farmers_helen-86e0f6199d1ab0894e8242c7f207d29df342b3d5-s1200.jpg"
                   />
                   <CardContent className={classes.cardContent}>
                     <Typography gutterBottom variant="h5" component="h2">
                       Aberdour Farm
                     </Typography>
                     <Typography>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    We are an organic farm, raising free-range chickens for over 30 years. We are against caging hens, and our mission is to help animals live a life of dignity. 
                     </Typography>
                   </CardContent>
                   <CardActions style={{justifyContent: 'center'}}>
