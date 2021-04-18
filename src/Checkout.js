@@ -13,12 +13,14 @@ import Typography from '@material-ui/core/Typography';
 import AddressForm from './AddressForm';
 import PaymentForm from './PaymentForm';
 import Review from './Review';
+import Header from './Header';
 
 const useStyles = makeStyles((theme) => ({
   appBar: {
     position: 'relative',
   },
   layout: {
+    backgroundColor: 'rgb(177, 206, 151)',
     width: 'auto',
     marginLeft: theme.spacing(2),
     marginRight: theme.spacing(2),
@@ -29,6 +31,7 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   paper: {
+
     marginTop: theme.spacing(3),
     marginBottom: theme.spacing(3),
     padding: theme.spacing(2),

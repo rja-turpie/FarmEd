@@ -15,23 +15,7 @@ import Container from '@material-ui/core/Container';
 import Link from '@material-ui/core/Link';
 import Search from './search';
 import Header from './Header';
-<<<<<<< HEAD
-import log from './logo.svg'
-
-function Copyright() {
-  return (
-    <Typography variant="body2" color="textSecondary" align="center">
-      {'Copyright © '}
-      <Link color="inherit" href="https://material-ui.com/">
-        Your Website
-      </Link>{' '}
-      {new Date().getFullYear()}
-      {'.'}
-    </Typography>
-  );
-}
-=======
->>>>>>> master
+import log from './logo.svg';
 
 const useStyles = makeStyles((theme) => ({
   icon: {
@@ -84,7 +68,7 @@ export default function Profiles() {
 
         
 
-        <Header title="Re:Fresh"  />
+        <Header  />
 
         {/* Hero unit */}
         <div className={classes.heroContent} >

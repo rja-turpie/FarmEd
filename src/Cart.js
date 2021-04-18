@@ -13,6 +13,8 @@ import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import Link from '@material-ui/core/Link';
 import Search from './search';
+import Header from './Header';
+import log from './logo.svg';
 
 function increment0() {
   var value = parseFloat(document.getElementById('number').value, 10);
@@ -105,7 +107,7 @@ const useStyles = makeStyles((theme) => ({
     marginRight: theme.spacing(2),
   },
   heroContent: {
-    backgroundColor: theme.palette.background.paper,
+    backgroundColor: 'rgb(177, 206, 151)',
     padding: theme.spacing(8, 0, 6),
   },
   heroButtons: {
@@ -127,9 +129,17 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
   },
   footer: {
-    backgroundColor: theme.palette.background.paper,
+    backgroundColor: 'rgb(177, 206, 151)',
     padding: theme.spacing(6),
   },
+  logoo:{
+    align: 'center',
+    width: 300,
+    height: 50,
+    backgroundRepeat: 'no repeat',
+    backgroundSize: 'cover',
+  }
+  
 }));
 
 export default function Cart() {
@@ -142,6 +152,7 @@ export default function Cart() {
       </AppBar>
       
       <main>
+        <Header />
         {/* Hero unit */}
         <div className={classes.heroContent}>
           <Container maxWidth="sm" class = "farmImage">
@@ -370,9 +381,7 @@ export default function Cart() {
       </main>
       {/* Footer */}
       <footer className={classes.footer}>
-        <Typography variant="h6" align="center" gutterBottom>
-          Re:Fresh
-        </Typography>
+        <img src={log} className={classes.logoo}/>
         <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
           Farm fresh food delivered straight from farm to you.
         </Typography>
