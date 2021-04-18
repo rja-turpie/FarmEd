@@ -6,7 +6,7 @@ import Button from '@material-ui/core/Button';
 function Landingpg() {
   return (
     <div className="App">
-          <Header title="FarmED"  />
+          <Header title="Re:Fresh"  />
     
     <body>
       <div className="App">
