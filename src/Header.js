@@ -6,6 +6,7 @@ import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 import Link from '@material-ui/core/Link';
+import logo from './logo.svg';
 
 const useStyles = makeStyles((theme) => ({
   toolbar: {
@@ -22,6 +23,13 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(1),
     flexShrink: 0,
   },
+  logo:{
+    flex: 1,
+    width: 300,
+    height: 50,
+    backgroundRepeat: 'no repeat',
+    backgroundSize: 'cover',
+  }
 }));
 
 export default function Header(props) {
@@ -32,16 +40,7 @@ export default function Header(props) {
     <React.Fragment>
       <Toolbar className={classes.toolbar}>
         <Button size="small" style={{color: 'rgb(245, 255, 239)'}}>Subscribe</Button>
-        <Typography
-          component="h2"
-          variant="h5"
-          color="white"
-          align="center"
-          noWrap
-          className={classes.toolbarTitle}
-        >
-          {title}
-        </Typography>
+        <img className={classes.logo} src={logo} />
         <IconButton>
         </IconButton>
         <Button variant="outlined" size="small" href='\login'>

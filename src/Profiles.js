@@ -15,7 +15,7 @@ import Container from '@material-ui/core/Container';
 import Link from '@material-ui/core/Link';
 import Search from './search';
 import Header from './Header';
-
+import log from './logo.svg'
 
 function Copyright() {
   return (
@@ -60,6 +60,13 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: 'rgb(177, 206, 151)',
     padding: theme.spacing(6),
   },
+  logoo:{
+    align: 'center',
+    width: 300,
+    height: 50,
+    backgroundRepeat: 'no repeat',
+    backgroundSize: 'cover',
+  }
 }));
 
 export default function Profiles() {
@@ -217,9 +224,7 @@ export default function Profiles() {
       </main>
       {/* Footer */}
       <footer className={classes.footer}>
-        <Typography variant="h6" align="center" gutterBottom>
-          Re:Fresh
-        </Typography>
+        <img src={log} className={classes.logoo}/>
         <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
         Farm fresh food delivered straight from farm to you.
         </Typography>
