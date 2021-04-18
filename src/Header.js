@@ -40,7 +40,9 @@ export default function Header(props) {
     <React.Fragment>
       <Toolbar className={classes.toolbar}>
         <Button size="small" style={{color: 'rgb(245, 255, 239)'}}>Subscribe</Button>
+        <a className={classes.logo} href='\'>
         <img className={classes.logo} src={logo} />
+        </a>
         <IconButton>
         </IconButton>
         <Button variant="outlined" size="small" href='\login'>

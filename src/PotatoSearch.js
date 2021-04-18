@@ -16,6 +16,7 @@ import Container from '@material-ui/core/Container';
 import Link from '@material-ui/core/Link';
 import Search from './search';
 import Header from './Header';
+import log from './logo.svg'
 
 function increment() {
   var value = parseFloat(document.getElementById('number').value, 10);
@@ -63,6 +64,12 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: 'rgb(177, 206, 151)',
     padding: theme.spacing(6),
   },
+  logoo:{
+    align: 'center',
+    width: 300,
+    height: 50,
+    backgroundRepeat: 'no repeat',
+    backgroundSize: 'cover',}
 }));
 
 export default function Cart() {
@@ -251,9 +258,7 @@ export default function Cart() {
       </main>
       {/* Footer */}
       <footer className={classes.footer}>
-        <Typography variant="h6" align="center" gutterBottom>
-          Re:Fresh
-        </Typography>
+        <img className={classes.logoo} src={log}/>
         <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
         Farm fresh food delivered straight from farm to you.
         </Typography>
