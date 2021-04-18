@@ -8,7 +8,7 @@ import SignInSide from './SignInSide'
 import Profiles from './Profiles'
 import Cart from './Cart'
 import SignUpSide from './SignUpSide'
-import PotatoeSearch from './PotatoeSearch'
+import PotatoeSearch from './PotatoSearch'
 import Checkout from './Checkout'
 
 const Routes = () => (
