@@ -62,7 +62,7 @@ export default function Review() {
           <Typography variant="h6" gutterBottom className={classes.title}>
             Collection Address
           </Typography>
-          <Typography gutterBottom>John Smith</Typography>
+          <Typography gutterBottom>Jane Smith</Typography>
           <Typography gutterBottom>{addresses.join(', ')}</Typography>
         </Grid>
         <Grid item container direction="column" xs={12} sm={6}>
