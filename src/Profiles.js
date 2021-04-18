@@ -71,7 +71,11 @@ export default function Profiles() {
       <AppBar position="relative">
       </AppBar>
       <main>
+
+        
+
         <Header title="Re:Fresh"  />
+
         {/* Hero unit */}
         <div className={classes.heroContent} >
           <Container maxWidth="sm">
@@ -214,10 +218,10 @@ export default function Profiles() {
       {/* Footer */}
       <footer className={classes.footer}>
         <Typography variant="h6" align="center" gutterBottom>
-          Footer
+          Re:Fresh
         </Typography>
         <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
-          Something here to give the footer a purpose!
+        Farm fresh food delivered straight from farm to you.
         </Typography>
         <Copyright />
       </footer>

@@ -155,7 +155,7 @@ export default function Cart() {
   return (
     <React.Fragment>
       <CssBaseline />
-      <Header title="Re:Fresh"  />
+      {/* <Header title="Re:Fresh"  /> */}
       <AppBar position="relative">
       </AppBar>
       
@@ -197,15 +197,13 @@ export default function Cart() {
                   />
                   <CardContent className={classes.cardContent}>
                     <Typography gutterBottom variant="h5" component="h2" align="center">
-                      Tomatoes
+                      Beef Tomatoes
                     </Typography>
                     <div align="center">
                     <Typography>
-                        Description
+                        Catch the last of our Beef Tomatoe Harvest.
                         <br></br>
-                        Price
-                        <br></br>
-                        Quanity
+                        £2.03 /kg
                     </Typography>
                     
                    
@@ -234,15 +232,13 @@ export default function Cart() {
                   />
                   <CardContent className={classes.cardContent}>
                     <Typography gutterBottom variant="h5" component="h2" align="center">
-                      Carrots
+                      Chantenay Carrots
                     </Typography>
                     <div align="center">
                     <Typography>
-                        Description
+                        Our award-winning chantanay carrots make the perfect healthy snack.
                         <br></br>
-                        Price
-                        <br></br>
-                        Quanity                    
+                        £0.38 /kg                    
                     </Typography>
 
                     <button type="button" class="btn" onClick={decrement1}>
@@ -270,11 +266,10 @@ export default function Cart() {
                     </Typography>
                     <div align="center">
                     <Typography>
-                        Description
+                        Our oats taste great in your morning porridge.
                         <br></br>
-                        Price
-                        <br></br>
-                        Quanity
+                        £2.10 /kg
+                        
                     </Typography>
 
                     <button type="button" class="btn" onClick={decrement2}>
@@ -293,20 +288,18 @@ export default function Cart() {
                 <Card className={classes.card}>
                   <CardMedia
                     className={classes.cardMedia}
-                    image="http://www.planetnatural.com/wp-content/uploads/2014/04/garden-potatoes.jpg"
+                    image="http://www.cpm-magazine.co.uk/wp-content/uploads/2019/04/Desiree-crop5-1-600x400.jpg"
                     title="Image title"
                   />
                   <CardContent className={classes.cardContent}>
                     <Typography gutterBottom variant="h5" component="h2" align="center">
-                      Potatoes
+                      Desiree Potatoes
                     </Typography>
                     <div align="center">
                     <Typography>
-                        Description
+                        Our Desiree Potatoes are still in harvest, and are great boiled baked, or mashed.
                         <br></br>
-                        Price
-                        <br></br>
-                        Quanity                    
+                        £0.73 /kg                  
                     </Typography>
 
                     <button type="button" class="btn" onClick={decrement3}>
@@ -334,12 +327,10 @@ export default function Cart() {
                     </Typography>
                     <div align="center">
                     <Typography>
-                        Description
+                        Our eggs are delivered to yuo within 24 hours of being laid.
                         <br></br>
-                        Price
-                        <br></br>
-                        Quanity                    
-                    </Typography>
+                        £0.21 /Egg
+                   </Typography>
 
                     <button type="button" class="btn" onClick={decrement4}>
                       -
@@ -359,7 +350,7 @@ export default function Cart() {
                 <Card className={classes.card}>
                   <CardMedia
                     className={classes.cardMedia}
-                    image="https://avec-poultry.eu/wp-content/uploads/2018/04/38686671_drumsticks_cropped.jpg"
+                    image="https://www.thehappychickencoop.com/wp-content/uploads/2018/05/Leghorn-Chicken-All-You-Need-To-Know.jpg"
                     title="Image title"
                   />
                   <CardContent className={classes.cardContent}>
@@ -368,11 +359,9 @@ export default function Cart() {
                     </Typography>
                     <div align="center">
                     <Typography>
-                        Description
+                        Our free range leghorn chickens are treated with love and care.
                         <br></br>
-                        Price
-                        <br></br>
-                        Quanity                    
+                        £3.75 /Chicken                    
                     </Typography>
 
                     <button type="button" class="btn" onClick={decrement5}>
@@ -396,10 +385,10 @@ export default function Cart() {
       {/* Footer */}
       <footer className={classes.footer}>
         <Typography variant="h6" align="center" gutterBottom>
-          Footer
+          Re:Fresh
         </Typography>
         <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
-          Something here to give the footer a purpose!
+          Farm fresh food delivered straight from farm to you.
         </Typography>
         <Copyright />
       </footer>
