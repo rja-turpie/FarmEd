@@ -87,7 +87,7 @@ export default function Cart() {
       <CssBaseline />
       <AppBar position="relative">
       </AppBar>
-      <Search />
+      
       <main>
         {/* Hero unit */}
         <div className={classes.heroContent}>
@@ -117,6 +117,7 @@ export default function Cart() {
             </div>
           </Container>
         </div>
+        <Search />
         <Container className={classes.cardGrid} maxWidth="md">
           {/* End hero unit */}
           <Grid container spacing={4} direction>
@@ -124,20 +125,18 @@ export default function Cart() {
                 <Card className={classes.card}>
                   <CardMedia
                     className={classes.cardMedia}
-                    image="http://www.planetnatural.com/wp-content/uploads/2014/04/garden-potatoes.jpg"
+                    image="http://www.cpm-magazine.co.uk/wp-content/uploads/2019/04/Desiree-crop5-1-600x400.jpg"
                     title="Image title"
                   />
                   <CardContent className={classes.cardContent}>
                     <Typography gutterBottom variant="h5" component="h2" align="center">
-                      Charlotte Potatoes
+                      Desiree Potatoes
                     </Typography>
                     <div align="center">
                     <Typography>
-                        Description
+                    Our Desiree Potatoes are still in harvest, and are great boiled bakes, or mashed.
                         <br></br>
-                        Price
-                        <br></br>
-                        Quanity
+                        £0.73 /kg
                     </Typography>
                     
                    
@@ -170,11 +169,9 @@ export default function Cart() {
                     </Typography>
                     <div align="center">
                     <Typography>
-                        Description
+                        We've been growing the best Maris Piper potatoes in Fife for 15  years and counting.
                         <br></br>
-                        Price
-                        <br></br>
-                        Quanity                    
+                        £0.65 /kg                    
                     </Typography>
 
                     <button type="button" class="btn" onClick={decrement}>
@@ -202,11 +199,9 @@ export default function Cart() {
                     </Typography>
                     <div align="center">
                     <Typography>
-                        Description
+                        Our baby potatoes are perfect for your next Sunday Roast.
                         <br></br>
-                        Price
-                        <br></br>
-                        Quanity
+                        £0.70 /kg
                     </Typography>
 
                     <button type="button" class="btn" onClick={decrement}>
@@ -225,20 +220,18 @@ export default function Cart() {
                 <Card className={classes.card}>
                   <CardMedia
                     className={classes.cardMedia}
-                    image="http://www.cpm-magazine.co.uk/wp-content/uploads/2019/04/Desiree-crop5-1-600x400.jpg"
+                    image="http://www.planetnatural.com/wp-content/uploads/2014/04/garden-potatoes.jpg"
                     title="Image title"
                   />
                   <CardContent className={classes.cardContent}>
                     <Typography gutterBottom variant="h5" component="h2" align="center">
-                      Desiree Potatoes
+                      Charlotte Potatoes
                     </Typography>
                     <div align="center">
                     <Typography>
-                        Description
+                        Great in salads, our charlotte potatoes are fully grown and ready for harvest.
                         <br></br>
-                        Price
-                        <br></br>
-                        Quanity                    
+                        £0.68 /kg                  
                     </Typography>
 
                     <button type="button" class="btn" onClick={decrement}>
@@ -328,10 +321,10 @@ export default function Cart() {
       {/* Footer */}
       <footer className={classes.footer}>
         <Typography variant="h6" align="center" gutterBottom>
-          Footer
+          Re:Fresh
         </Typography>
         <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
-          Something here to give the footer a purpose!
+        Farm fresh food delivered straight from farm to you.
         </Typography>
         <Copyright />
       </footer>
