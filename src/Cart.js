@@ -144,22 +144,26 @@ export default function Cart() {
       <main>
         {/* Hero unit */}
         <div className={classes.heroContent}>
-          <Container maxWidth="sm">
-            <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
+          <Container maxWidth="sm" class = "farmImage">
+            <Typography  component="h3" variant="h2" align="center" gutterBottom>
               West Lothian Farm
             </Typography>
-            <Typography variant="h5" align="center" color="textSecondary" paragraph>
-            West Lothian farm in bonnie Livingston has been a family business for over 80 years. We are an organic farm, raising free-range chickens in our pastures and never using pesticides on our crops. We believe the future of food is found in organic farming, and we hope to spread that ethos, one harvest at a time. 
+            <Typography  variant="h5" align="center" >
+            West Lothian farm in bonnie Livingston has been a family business for over 80 years. 
+            <br></br> 
+            We are an organic farm, raising free-range chickens in our pastures and never using pesticides on our crops. 
+            <br></br>
+            We believe the future of food is found in organic farming, and we hope to spread that ethos, one harvest at a time. 
             </Typography>
             <div className={classes.heroButtons}>
               <Grid container spacing={2} justify="center">
                 <Grid item>
-                  <Button variant="contained" color="primary">
+                  <Button variant="contained" color="rgb(255,250,250)">
                     Message farmer
                   </Button>
                 </Grid>
                 <Grid item>
-                  <Button variant="outlined" color="primary" href="/Checkout">
+                  <Button variant="contained" color="rgb(255,250,250)" href="/Checkout">
                     Checkout
                   </Button>
                 </Grid>
@@ -167,7 +171,7 @@ export default function Cart() {
             </div>
           </Container>
         </div>
-        <Container className={classes.cardGrid} maxWidth="md">
+        <Container className={classes.cardGrid} maxWidth="md" >
           {/* End hero unit */}
           <Search />
           <Grid container spacing={4} direction>
